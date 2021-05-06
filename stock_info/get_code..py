@@ -2,14 +2,14 @@
 코스피 종목 및 코스닥 종목 전체를 얻어와서 종목명을 찾아서 '종목코드', '종목명' 칼럼으로 엑셀파일에 저장
 이 엑셀파일의 종목코드시트는 앞으로 만들어 나갈 모든 자료의 [인덱스키]로만 사용하고 다른 데이터는 포함하지 않는다.
 '''
-from Get_Code.kiwoom import *
+from kiwoom.kiwoom import *
 from pandas import *
 
 class Main:
     def __init__(self):
         kiwoom = Kiwoom()
 
-        file_name = "종목코드.xlsx"   # 종목코드를 저장할 엑셀파일명을 저장하는 변수
+        file_name = "종목코드.xlsx"  # 종목코드를 저장할 엑셀파일명을 저장하는 변수
 
         # 코스포 종목 얻어오기
         kospi = kiwoom.dynamicCall("GetCodeListByMarket(QString)", "0")
