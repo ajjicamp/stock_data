@@ -62,7 +62,7 @@ def get_content(driver, i, last_picture):
 def move_next(driver):
     right = driver.find_element_by_css_selector('a.coreSpriteRightPaginationArrow')
     right.click()
-    time.sleep(random.uniform(5,7))          
+    time.sleep(random.uniform(5,7))
 
 def save_data():
     df_results = DataFrame(results)
