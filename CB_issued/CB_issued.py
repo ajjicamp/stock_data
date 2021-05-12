@@ -1,2 +1,0 @@
-from kiwoom.kiwoom import *
-
