@@ -1,4 +1,4 @@
-from trkiwoom.kiwoom import *
+from lib_01.kiwoom import *
 import time
 from pandas import *
 import os
