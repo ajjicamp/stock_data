@@ -1,5 +1,5 @@
+from trkiwoom.kiwoom import *
 import time
-from kiwoom.kiwoom import *
 from pandas import *
 import os
 import xlrd
