@@ -8,7 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/log" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/stock_info" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/theme_group" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/trkiwoom" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
