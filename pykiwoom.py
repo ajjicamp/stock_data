@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QAxContainer import *
 import pythoncom
 import datetime
-from pykiwoom import parser
+from stock.Stock_data.pykiwoom import parser
 import pandas as pd
 import time
 import logging
